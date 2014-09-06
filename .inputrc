@@ -1,0 +1,12 @@
+# see https://wiki.ubuntu.com/Spec/EnhancedBash for more options
+
+# mappings for ↑ and ↓ to search the history
+"\e[B": history-search-forward
+"\e[A": history-search-backward
+
+# case insensitive completion
+set completion-ignore-case On
+
+# show the list at first TAB, instead of beeping and
+# waiting for a second TAB to do that
+set show-all-if-ambiguous on
