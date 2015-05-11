@@ -11,7 +11,6 @@ export WORKON_HOME="$HOME/.virtualenvs"
 source /usr/local/bin/virtualenvwrapper.sh
 complete -o default -o nospace -F _virtualenvs v
 
-export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
 export DJANGO_CONFIGURATION=Dev
 export PYTHONPATH="."
 
