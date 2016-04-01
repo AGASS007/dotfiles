@@ -12,6 +12,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 complete -o default -o nospace -F _virtualenvs v
 
 export DJANGO_CONFIGURATION=Dev
+export WERKZEUG_DEBUG_PIN=off
 export PYTHONPATH="."
 
 # Set color bash prompt according to active virtualenv, git branch,
